@@ -5,21 +5,21 @@ def fizzbuzz(x)
     
     if x%3 == 0 && x%5 != 0
         
-        result = 'Fizz'
+        'Fizz'
         
     elsif x%5 == 0 && x%3 != 0
         
-        result = 'Buzz'
+        'Buzz'
         
     elsif x%3 == 0 && x%5 == 0
         
-        result = 'FizzBuzz'
+        'FizzBuzz'
         
     else 
-        result = x.to_s
+         x
         
     end
-        result
+
 end
 
 while i <= num_max
